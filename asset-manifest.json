@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/swecc/static/css/main.e915353b.css",
-    "main.js": "/swecc/static/js/main.6bb3ba5c.js",
+    "main.css": "/swecc/static/css/main.1095b195.css",
+    "main.js": "/swecc/static/js/main.28e36926.js",
     "static/js/787.a8a19fff.chunk.js": "/swecc/static/js/787.a8a19fff.chunk.js",
     "static/media/about.svg": "/swecc/static/media/about.26801fec3c58da57a3cc.svg",
     "static/media/SWECC-MAP.jpg": "/swecc/static/media/SWECC-MAP.fdad820c496c5031a379.jpg",
@@ -18,13 +18,15 @@
     "static/media/UW_logo.png": "/swecc/static/media/UW_logo.eaa5afee797e9a3c4039.png",
     "static/media/join-now-img3.png": "/swecc/static/media/join-now-img3.70c50148effdd0962dab.png",
     "static/media/insta-logo.jpg": "/swecc/static/media/insta-logo.6e0bf2ea0717c9964e1c.jpg",
+    "static/media/community.png": "/swecc/static/media/community.ce406aed64b12f1541c9.png",
+    "static/media/networking.png": "/swecc/static/media/networking.775a6746be02b4eb10c9.png",
     "index.html": "/swecc/index.html",
-    "main.e915353b.css.map": "/swecc/static/css/main.e915353b.css.map",
-    "main.6bb3ba5c.js.map": "/swecc/static/js/main.6bb3ba5c.js.map",
+    "main.1095b195.css.map": "/swecc/static/css/main.1095b195.css.map",
+    "main.28e36926.js.map": "/swecc/static/js/main.28e36926.js.map",
     "787.a8a19fff.chunk.js.map": "/swecc/static/js/787.a8a19fff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e915353b.css",
-    "static/js/main.6bb3ba5c.js"
+    "static/css/main.1095b195.css",
+    "static/js/main.28e36926.js"
   ]
 }
