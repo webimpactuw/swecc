@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/swecc/static/css/main.e915353b.css",
+    "main.js": "/swecc/static/js/main.6bb3ba5c.js",
+    "static/js/787.a8a19fff.chunk.js": "/swecc/static/js/787.a8a19fff.chunk.js",
+    "static/media/about.svg": "/swecc/static/media/about.26801fec3c58da57a3cc.svg",
+    "static/media/SWECC-MAP.jpg": "/swecc/static/media/SWECC-MAP.fdad820c496c5031a379.jpg",
+    "static/media/man-on-computer..jpg": "/swecc/static/media/man-on-computer..8ca67310066ac440df37.jpg",
+    "static/media/Roboto-Regular.ttf": "/swecc/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/BackgroundImg.jpg": "/swecc/static/media/BackgroundImg.225ddd3b5425b7e055e4.jpg",
+    "static/media/pseudo-past-event.jpg": "/swecc/static/media/pseudo-past-event.4e33e326a27e4b3b6e39.jpg",
+    "static/media/pseudo-current-event.jpg": "/swecc/static/media/pseudo-current-event.80f8d45cb283b39f6128.jpg",
+    "static/media/Assistant-Regular.ttf": "/swecc/static/media/Assistant-Regular.b577f56cc91578547981.ttf",
+    "static/media/SWECClogo.jpg": "/swecc/static/media/SWECClogo.fa57a222d12347821480.jpg",
+    "static/media/join-now-img1.png": "/swecc/static/media/join-now-img1.c664569eb1ebd10df74e.png",
+    "static/media/join-now-img0.png": "/swecc/static/media/join-now-img0.a3c350b178fc503f2aee.png",
+    "static/media/join-now-img2.png": "/swecc/static/media/join-now-img2.0547f9d2e18d0d0cbf6f.png",
+    "static/media/UW_logo.png": "/swecc/static/media/UW_logo.eaa5afee797e9a3c4039.png",
+    "static/media/join-now-img3.png": "/swecc/static/media/join-now-img3.70c50148effdd0962dab.png",
+    "static/media/insta-logo.jpg": "/swecc/static/media/insta-logo.6e0bf2ea0717c9964e1c.jpg",
+    "index.html": "/swecc/index.html",
+    "main.e915353b.css.map": "/swecc/static/css/main.e915353b.css.map",
+    "main.6bb3ba5c.js.map": "/swecc/static/js/main.6bb3ba5c.js.map",
+    "787.a8a19fff.chunk.js.map": "/swecc/static/js/787.a8a19fff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e915353b.css",
+    "static/js/main.6bb3ba5c.js"
+  ]
+}
