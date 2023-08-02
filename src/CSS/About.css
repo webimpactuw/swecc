@@ -3,18 +3,19 @@ p {
 }
 
 .about {
-    position: absolute;
     width: 100%;
     height: 100%;
     background: var(--bg);
     font-family: 'Assistant';
+    max-width: 1280px;
 }
 
 .about-message-section {
-    position: relative;
+    position: absolute;
+    left: 0;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
     height: 710px;
     /* top: 134px; */
     display: flex;
@@ -63,6 +64,12 @@ p {
     flex-direction: column;
     background: #FFFFFF;
 } */
+
+.about-content {
+    margin-top: 730px;
+    margin-bottom: 4rem;
+}
+
 .goal-message-section {
     position: relative;
     align-items: center;
@@ -133,8 +140,7 @@ p {
 } */
 .picture-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 30px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     justify-content: center;
 }
 
@@ -176,6 +182,9 @@ p {
         background-position: 20%;
     }
 
+    .about-content {
+        margin-top: 0;
+    }
 
     .about-title {
         font-style: normal;
