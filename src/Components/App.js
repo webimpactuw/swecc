@@ -13,7 +13,7 @@ function App() {
     <HashRouter>
       <Navbar />
       {/* <Header /> */}
-      <div>
+      <div className="wrapper">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />

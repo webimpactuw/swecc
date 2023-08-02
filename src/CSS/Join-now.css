@@ -15,6 +15,7 @@
     background-attachment: fixed;
     display: flex;
     justify-content: center;
+    width: 100vw;
 }
 
 .js-white-box {
@@ -27,7 +28,6 @@
     justify-content: center;
     align-items: center;
     width: 400%;
-    height: 200%;
 }
 
 .completion-bar {
@@ -127,13 +127,25 @@ img {
     margin-right: auto;
 }
 
-table {
-    border-collapse: separate;
+.info-table {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    padding: 1rem;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    align-items: center;
 }
 
+.info-element {
+    text-align: center;
+    max-width: max-content;
+    max-width: 500px;
+}
+
+.info-element img {
+    max-height: 100px;
+    width: auto;
+}
 
 .info-title {
     font-family: 'Assistant';
@@ -150,8 +162,8 @@ table {
     font-family: 'Assistant';
     font-style: normal;
     font-weight: 600;
-    font-size: 150%;
-    line-height: 39px;
+    font-size: 1.5rem;
+    line-height: 3rem;
     color: #676767;
     text-align: center;
     width: 60%;
@@ -167,3 +179,33 @@ table {
     display: flex;
     flex-direction: column;
 }
+
+@media only screen and (max-width: 768px) {
+    .info-table {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .info-text {
+        font-size: 1.25rem
+    }
+  }
+
+  /* .info-table {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+.info-element {
+    text-align: center;
+    max-width: max-content;
+    max-width: 500px;
+}
+
+.info-element img {
+    max-height: 100px;
+    width: auto;
+} */

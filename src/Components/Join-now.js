@@ -68,43 +68,21 @@ export default function JoinNow() {
         <div className="join-section">
           <div className="info-message-section">
             <div className="info-table">
-              <table>
-                <tbody>
-                  <tr>
-                    <td align='center'>
-                      <img className="example-images" src={networking} alt="Networking" width="60%" />
-                    </td>
-                    <td align='center'>
-                      <img className="example-images" src={community} alt="Community" width="60%" />
-                    </td>
-                    <td align="center">
-                      <img className="example-images" src={career} alt="Career" width="60%" />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <div className="info-title">networking</div>
-                    </td>
-                    <td>
-                      <div className="info-title">community</div>
-                    </td>
-                    <td>
-                      <div className="info-title">career</div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <div className="info-text">make connections in a network of future and current software engineers  </div>
-                    </td>
-                    <td>
-                      <div className="info-text">Join a vibrant community of future software engineers</div>
-                    </td>
-                    <td>
-                      <div className="info-text">Gain access to career talks, and more opportunities</div>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+              <div className="info-element">
+                <img className="example-images" src={networking} alt="Networking" />
+                <h2>Networking</h2>
+                <p className="info-text">make connections in a network of future and current software engineers  </p>
+              </div>
+              <div className="info-element">
+                <img className="example-images" src={community} alt="Community" />
+                <h2>Community</h2>
+                <p className="info-text">Join a vibrant community of future software engineers  </p>
+              </div>
+              <div className="info-element">
+                <img className="example-images" src={career} alt="Career" />
+                <h2>Career</h2>
+                <p className="info-text">Gain access to career talks, and more opportunities  </p>
+              </div>
             </div>
           </div>
         </div>
