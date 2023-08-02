@@ -4,10 +4,6 @@ import { CSSTransition } from 'react-transition-group';
 import SWECClogo from '../Data/img/SWECClogo.jpg';
 import { NavLink } from 'react-router-dom';
 
-import { ReactComponent as BellIcon } from '../icons/bell.svg';
-import { ReactComponent as MessengerIcon } from '../icons/messenger.svg';
-import { ReactComponent as CaretIcon } from '../icons/caret.svg';
-import { ReactComponent as ArrowIcon } from '../icons/arrow.svg';
 import { FaInstagram, FaLinkedin, FaDiscord, FaUsers, FaChevronRight } from 'react-icons/fa';
 import { FcShare, FcCalendar, FcAbout, FcHome } from 'react-icons/fc';
 import { IoHome } from 'react-icons/io5';
@@ -16,6 +12,7 @@ import { MdGroupAdd } from 'react-icons/md';
 import { BiInfoCircle } from 'react-icons/bi';
 import { ImSun } from 'react-icons/im';
 import { PiMoonBold } from 'react-icons/pi';
+import { LuBell, LuMail, LuChevronDown, LuArrowLeft } from 'react-icons/lu'
 
 import Switch from "./Switch.js";
 
@@ -67,7 +64,7 @@ function Navbar() {
           <NavItem icon={<MdGroupAdd />} route={"/Join-Now"} expand={expand} closeExpand={closeExpand} tooltip="Join" />
         </>
       }
-      <NavExpandItem icon={<CaretIcon />} expand={expand} togglExpand={togglExpand} closeExpand={closeExpand} tooltip="More" >
+      <NavExpandItem icon={<LuChevronDown />} expand={expand} togglExpand={togglExpand} closeExpand={closeExpand} tooltip="More" >
         <DropdownMenu closeExpand={closeExpand} />
       </NavExpandItem>
     </NavBar>
@@ -166,7 +163,7 @@ function DropdownMenu(props) {
             <DropdownItem leftIcon={<FaUsers />} >Join Now</DropdownItem>
           </NavLink>
           <DropdownItem
-            leftIcon={<BellIcon />}
+            leftIcon={<LuBell />}
             url={"http://mailman11.u.washington.edu/mailman/listinfo/sweccmailinglist"}>
             Subscribe to our newsletter
           </DropdownItem>
@@ -187,7 +184,7 @@ function DropdownMenu(props) {
         onEnter={getHeight}>
 
         <div className="menu">
-          <DropdownItem leftIcon={<ArrowIcon />} goToMenu="main"></DropdownItem>
+          <DropdownItem leftIcon={<LuArrowLeft />} goToMenu="main"></DropdownItem>
           <DropdownItem
             leftIcon={<FaDiscord />}
             url={"https://discord.gg/Pbk4sCEWDY"}>
@@ -207,7 +204,7 @@ function DropdownMenu(props) {
           </DropdownItem>
 
           <DropdownItem
-            leftIcon={<MessengerIcon />}
+            leftIcon={<LuMail />}
             url={"mailto:swecc@uw.edu"}>
             Email
           </DropdownItem>
