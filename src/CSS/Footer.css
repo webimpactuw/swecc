@@ -32,18 +32,14 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 50%;
-  justify-content: space-between;
-  padding-right: 5%;
+  gap: 2rem;
 }
 
 .copyright-section {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 50%;
-  justify-content: space-between;
-  padding-left: 5%;
+  gap: 2rem;
 }
 
 /* Controls the text styling for the text of contact and join newsletter */
@@ -99,4 +95,19 @@ a {
   height: 40px;
 }
 
+.social-media {
+  display: flex;
+  gap: 1rem;
+}
+
 /* End of the footer content  */
+
+@media only screen and (max-width: 768px) {
+  .links-section {
+    flex-direction: column;
+  }
+
+  .copyright-section {
+    flex-direction: column;
+  }
+}

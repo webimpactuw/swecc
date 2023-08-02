@@ -15,15 +15,17 @@ const Footer = () => {
             <a href="mailto:swecc@uw.edu" className="contact-text">
               CONTACT
             </a>
-            <a href="https://instagram.com/swecc.uw?igshid=YmMyMTA2M2Y=">
-              <img className="contact-images" src={instaLogo} alt="instalogo" />
-            </a>
-            <a href="https://discord.com/invite/Pbk4sCEWDY">
-              <img className="contact-images" src={discordLogo} alt="discord" />
-            </a>
-            <a href="https://www.linkedin.com/company/software-engineering-career-club-at-uw/">
-              <img className="contact-images" src={LinkedInLogo} alt="mail" />
-            </a>
+            <div className="social-media">
+              <a href="https://instagram.com/swecc.uw?igshid=YmMyMTA2M2Y=">
+                <img className="contact-images" src={instaLogo} alt="instalogo" />
+              </a>
+              <a href="https://discord.com/invite/Pbk4sCEWDY">
+                <img className="contact-images" src={discordLogo} alt="discord" />
+              </a>
+              <a href="https://www.linkedin.com/company/software-engineering-career-club-at-uw/">
+                <img className="contact-images" src={LinkedInLogo} alt="mail" />
+              </a>
+            </div>
             <a
               href="http://mailman11.u.washington.edu/mailman/listinfo/sweccmailinglist"
               className="join-newsletter">
