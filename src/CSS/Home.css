@@ -6,20 +6,24 @@
 }
 
 .homepage {
-  position: absolute;
   width: 100%;
   height: 100%;
   background: var(--bg);
   font-family: "Assistant";
-}
-
-.clubTitleSection {
-  position: relative;
-  width: 100%;
-  height: 40vw;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.clubTitleSection {
+  position: absolute;
+  left: 0;
+  width: 100vw;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
   background:
     linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
     linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)),
@@ -28,23 +32,27 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  text-align: center;
 }
 
 .uw-logo {
-  position: absolute;
-  margin: auto;
-  width: 40%;
-  top: 10%;
+  margin-top: 4rem;
+  max-width: 500px;
+  height: auto;
 }
 
 .clubName {
-  position: absolute;
   font-style: normal;
-  font-weight: 700;
-  font-size: 6vw;
-  line-height: 5vw;
+  font-weight: 600;
+  font-size: 5rem;
+  letter-spacing: -0.025em;
   color: var(--text-header-color);
-  bottom: 8%;
+}
+
+@media only screen and (max-width: 768px) {
+    .clubName {
+      font-size: 4rem;
+    }
 }
 
 /* .whatWeDoSection .summaryTitle, .meetingsInfoSection .sweccMeetings {
@@ -54,10 +62,11 @@
 } */
 
 .whatWeDoSection {
+  max-width: 1280px;
+  margin-top: 700px;
   background-color: var(--bg);
   padding: 5rem 100px;
   text-align: center;
-  margin: 20px 30px;
 }
 
 h3 {
@@ -126,15 +135,16 @@ h3 {
   /* padding-left: 50px; */
   display: flex;
   justify-content: center;
+  width: 100vw;
   background-color: var(--bg-accent);
 }
 
 .meetingsInfoSection {
+  max-width: 1280px;
   flex: 1;
   padding: 20px;
   margin: 30px;
   display: flex;
-  flex-direction: column;
   align-items: flex-start;
   justify-content: center;
 }
