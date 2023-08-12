@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/swecc/static/css/main.915436e7.css",
-    "main.js": "/swecc/static/js/main.2cde1514.js",
-    "static/js/787.a8a19fff.chunk.js": "/swecc/static/js/787.a8a19fff.chunk.js",
+    "main.css": "/swecc/static/css/main.68ac7e26.css",
+    "main.js": "/swecc/static/js/main.f5a83b0b.js",
     "static/media/about.svg": "/swecc/static/media/about.26801fec3c58da57a3cc.svg",
     "static/media/SWECC-MAP.jpg": "/swecc/static/media/SWECC-MAP.fdad820c496c5031a379.jpg",
     "static/media/man-on-computer..jpg": "/swecc/static/media/man-on-computer..8ca67310066ac440df37.jpg",
@@ -11,7 +10,7 @@
     "static/media/pseudo-past-event.jpg": "/swecc/static/media/pseudo-past-event.4e33e326a27e4b3b6e39.jpg",
     "static/media/pseudo-current-event.jpg": "/swecc/static/media/pseudo-current-event.80f8d45cb283b39f6128.jpg",
     "static/media/Assistant-Regular.ttf": "/swecc/static/media/Assistant-Regular.b577f56cc91578547981.ttf",
-    "static/media/SWECClogo.jpg": "/swecc/static/media/SWECClogo.fa57a222d12347821480.jpg",
+    "static/media/SWECClogo.jpg": "/swecc/static/media/SWECClogo.086ab49259726c31acdd.jpg",
     "static/media/join-now-img1.png": "/swecc/static/media/join-now-img1.c664569eb1ebd10df74e.png",
     "static/media/join-now-img0.png": "/swecc/static/media/join-now-img0.a3c350b178fc503f2aee.png",
     "static/media/join-now-img2.png": "/swecc/static/media/join-now-img2.0547f9d2e18d0d0cbf6f.png",
@@ -20,13 +19,16 @@
     "static/media/insta-logo.jpg": "/swecc/static/media/insta-logo.6e0bf2ea0717c9964e1c.jpg",
     "static/media/community.png": "/swecc/static/media/community.ce406aed64b12f1541c9.png",
     "static/media/networking.png": "/swecc/static/media/networking.775a6746be02b4eb10c9.png",
+    "static/media/bell.svg": "/swecc/static/media/bell.3f26bc32f26f3205a7edc45139d879bc.svg",
     "index.html": "/swecc/index.html",
-    "main.915436e7.css.map": "/swecc/static/css/main.915436e7.css.map",
-    "main.2cde1514.js.map": "/swecc/static/js/main.2cde1514.js.map",
-    "787.a8a19fff.chunk.js.map": "/swecc/static/js/787.a8a19fff.chunk.js.map"
+    "static/media/messenger.svg": "/swecc/static/media/messenger.2f80de94127c63b7f7a839d28d60bb92.svg",
+    "static/media/arrow.svg": "/swecc/static/media/arrow.2e552680862d14cd24637c6387dfb5b7.svg",
+    "static/media/caret.svg": "/swecc/static/media/caret.5e005f3e892fd19042b6692c6a59c6e9.svg",
+    "main.68ac7e26.css.map": "/swecc/static/css/main.68ac7e26.css.map",
+    "main.f5a83b0b.js.map": "/swecc/static/js/main.f5a83b0b.js.map"
   },
   "entrypoints": [
-    "static/css/main.915436e7.css",
-    "static/js/main.2cde1514.js"
+    "static/css/main.68ac7e26.css",
+    "static/js/main.f5a83b0b.js"
   ]
 }
