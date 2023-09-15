@@ -36,7 +36,7 @@ const Footer = () => {
             
             <span className="copyright-message"> Copyright © UW SWECC 2023</span>
             <span className="collaboration-message">
-              Collaboration with Dubvelopers
+              Collaboration with Web Impact UW
             </span>
           </span>
         </div>
